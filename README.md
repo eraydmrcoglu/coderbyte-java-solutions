@@ -1,1 +1,1 @@
-# Coderbyte-Java-Solutions
+# Coderbyte Java Solutions
