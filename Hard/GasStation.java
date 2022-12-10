@@ -21,7 +21,7 @@ class Main {
         for (int station = 0; station < circuitSize; station++) {
 
             String startIndex = getStartIndex(gas,costs,station);
-            if (IMPOSSIBLE.equals(startIndex))
+            if (!IMPOSSIBLE.equals(startIndex))
                return startIndex;
         }
         return IMPOSSIBLE;
